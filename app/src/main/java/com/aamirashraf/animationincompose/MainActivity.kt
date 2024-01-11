@@ -54,7 +54,7 @@ class MainActivity : ComponentActivity() {
                         Text(text = "This is now reveled",
                         modifier = Modifier.fillMaxWidth()
                             .height(100.dp)
-                            .background(Color.Red)
+                            .background(Color.Yellow)
                         )
                     }
                 }

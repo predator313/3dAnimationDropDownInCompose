@@ -47,6 +47,8 @@ class MainActivity : ComponentActivity() {
                 Surface(
                     color = Color(0xff101010),
                     modifier = Modifier.fillMaxSize()
+
+                        .height(100.dp)
                 ) {
                     DropDown(text = "hello world",
                         modifier = Modifier.padding(15.dp)
